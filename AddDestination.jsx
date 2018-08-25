@@ -66,7 +66,7 @@ export default class AddDestination extends Component {
                                 <input type="text" id="state" value={this.state.state} onChange={this.handleChange.bind(this, 'state')} />
                         </div>
                         <div className="required field required eight ">
-                                <label htmlFor="zip">Zip</label>
+                                <label htmlFor="zip">Postcode</label>
                                 <input type="text" id="zip" value={this.state.zip} onChange={this.handleChange.bind(this, 'zip')} />
                         </div>
                     </div>
