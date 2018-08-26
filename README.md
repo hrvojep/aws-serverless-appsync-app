@@ -59,7 +59,7 @@ Execute following CLI command to create a table called: **AppSync-Destinations**
 
 Execute the following CLI command to load the table with a few travel destinations:
 
-    aws dynamodb batch-write-item --request-items file://Destinations.json
+    aws dynamodb batch-write-item --request-items file://`pwd`/Destinations.json
 
 ### Step 2: Create your Lambda Function
 
