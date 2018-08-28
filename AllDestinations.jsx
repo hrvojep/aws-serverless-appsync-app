@@ -49,7 +49,7 @@ export default class AllDestinations extends Component {
                         <div className="content">
                             <div className="header">{destination.description}</div>
                             <div className="content">
-                                <p><i className="icon calendar"></i>{(destination.id)}</p>
+                                <p><i className="icon calendar"></i>{(destination.city)}</p>
                                 <p><i className="icon clock"></i>{(destination.conditions.description)}</p>
                                 <p><i className="icon marker"></i><span style={tempStyle}>{destination.conditions.current} C</span></p>
                             </div>
