@@ -5,6 +5,7 @@ query getAllDestinations{
     getAllDestinations {
       id
       description
+      city
       state
       conditions {
         description
